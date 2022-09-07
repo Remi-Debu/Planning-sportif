@@ -1,0 +1,35 @@
+/* Styles des boutons */
+
+/* .btn = style commun à tout les boutons */
+.btn {
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+}
+
+.inscription {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.inscription:hover {
+    color: #616F39;
+    background-color: white;
+    border: 1px solid #616F39;
+    cursor: pointer;
+}
+
+.seConnecter {
+    color: white;
+    background-color: #888888;
+    border: 1px solid #888888;
+}
+
+.seConnecter:hover {
+    color: #888888;
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
