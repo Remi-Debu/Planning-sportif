@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.75rem;
+    margin: 0;
+    padding: 20px 100px;
+    background-color: #616F39;
+}
+
+.h1 {
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+}
+
+.h1:hover {
+    font-size: 2.1rem;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 20px 0px;
+    }
+
+    .boutons-container {
+        display: none;
+    }
+}
